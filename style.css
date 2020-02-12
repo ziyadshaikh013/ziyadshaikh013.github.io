@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+}
+
+#top{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(121, 121, 124);
+    overflow: hidden;
+}
+
+#bottom{
+    height: 70%;
+    width: 0;
+    background-color: rgb(39, 38, 38);
+    overflow: hidden;
+    position: relative;
+}
+
+#navbotline{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 50%;
+    height: 1%;
+    background-color: rgb(151, 151, 151);
+    transform: translate(-50%, -50%);
+}
+
+#navbar{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 15%;
+    width: 50%;
+    overflow: hidden;
+    transform: translate(-50%, 0);
+    /* background-color: red; */
+}
+
+#navitems{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+#usericon{
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+
+#navitems a{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    font-weight: 500;
+}
+
+#maittle{
+    width: 50%;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#maittle h1{
+    font-size: 110px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color: rgb(27, 27, 27);
+    font-family: playfair display;
+    font-weight: 300;
+}
+
+#maittle-bottom{
+    width: 50%;
+    position: absolute;
+    top: -84px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#maittle-bottom h1{
+    font-size: 110px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color:white;
+    font-family: playfair display;
+    font-weight: 300;
+}
+
+#myimage{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#myimg{
+    height: 850px;
+    opacity: 0;
+}
+
+#play{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: grey;
+    transition: all ease 0.3s;
+    box-shadow: 20px 20px -20px rgb(0, 0, 0);
+}
+
+#play i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(79, 79, 80);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+#play:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#layer1{
+    height: 100%;
+    width: 100%;
+}
