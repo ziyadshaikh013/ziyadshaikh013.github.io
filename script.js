@@ -18,7 +18,7 @@ play.addEventListener('click', function(){
       .fromTo('#leftline', 1, {height: 0}, {height: '35%'})
       .fromTo('#rightbar', 1, {width: 0}, {width: '15%'}, '-=1')
       .fromTo('#modelimage img', 1, {bottom: '100%'}, {bottom: 0, ease: Expo.easeIn}, '-=1')
-      .fromTo('#textdets', 1, {opacity: 0, left: '20%'}, {left: '42%', opacity: 1, ease: Expo.easeIn});
+      .fromTo('#textdets', 1, {opacity: 0, left: '20%'}, {left: '42%', opacity: 1, ease: Expo.easeInOut});
 
 });
 
